@@ -1,0 +1,17 @@
+@import "~normalize.css/normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+
+$green: green;
+
+p {
+    color: $green;
+}
+
+.parentDiv {
+    text-align: center;
+
+    img,
+    .icons {
+        margin-bottom: 2rem;
+    }
+}
