@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
 import { Button, Alert, Icon, Intent } from '@blueprintjs/core'
 import { IconNames } from '@blueprintjs/icons'
-import ReactImage from './react.png'
-import './app.scss'
+import output from '../../../utils'
+import ReactImage from '../../../assets/react.png'
+import './intro.scss'
 
-const App = () => {
+const Intro = () => {
     const [isOpen, toggleOverlay] = useState(false)
     return (
         <div className="parentDiv">
-            <h1>Hello World</h1>
+            <h2 className="heading">Hello World</h2>
+            <p className="subheading">{output()}</p>
             <img src={ReactImage} alt="react" />
             <div className="icons">
                 <Icon icon="globe" iconSize={20} />
@@ -39,4 +41,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Intro

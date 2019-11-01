@@ -9,6 +9,7 @@
     },
     "author": "Wail Solaiman",
     "license": "ISC",
+    "repository": "https://github.com/WailSolaiman/themeforest-react-template.git",
     "dependencies": {
         "@blueprintjs/core": "^3.19.1",
         "@blueprintjs/icons": "^3.11.0",
@@ -18,7 +19,8 @@
         "react": "^16.5.2",
         "react-dom": "^16.5.2",
         "react-popper": "^1.3.4",
-        "react-transition-group": "^4.3.0"
+        "react-transition-group": "^4.3.0",
+        "webfontloader": "^1.6.28"
     },
     "devDependencies": {
         "@babel/core": "^7.0.0",
